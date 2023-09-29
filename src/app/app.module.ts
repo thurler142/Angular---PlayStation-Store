@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
@@ -10,6 +9,9 @@ import { CardPriceComponent } from './components/card/card-price/card-price.comp
 import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CardAssinaturasComponent } from './components/card/card-assinaturas/card-assinaturas.component';
+import { MenuDropdownComponent } from './components/menu-dropdown/menu-dropdown.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -20,11 +22,15 @@ import { CardAssinaturasComponent } from './components/card/card-assinaturas/car
     CardLabelComponent,
     CardPriceComponent,
     FooterComponent,
-    CardAssinaturasComponent
+    CardAssinaturasComponent,
+    MenuDropdownComponent,
     ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]

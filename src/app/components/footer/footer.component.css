@@ -15,3 +15,9 @@
     text-decoration: none;
     color:  grey; 
 }
+@media (max-width: 768px){
+    .footer__item {
+        display: flex;
+        
+    }
+}

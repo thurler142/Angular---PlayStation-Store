@@ -17,3 +17,8 @@
 .card__img:hover{
 	transform: scale(1.1);
 }
+@media (max-width: 576px) {
+    .card__container {
+        max-width: 100%; /* Largura máxima igual à largura da tela */
+    }
+}

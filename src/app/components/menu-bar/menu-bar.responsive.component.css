@@ -1,7 +1,6 @@
 /* Mídia query para telas pequenas */
 @media (max-width: 767px) {
     .menu-bar__container {
-        
         height: auto; /* Permita que a altura seja definida automaticamente com base no conteúdo */
     }
 

@@ -53,3 +53,94 @@
     justify-content: space-around;
     margin-right: 15px;
 }
+
+/* Mídia query para telas pequenas */
+@media (max-width: 767px) {
+    .menu-bar__container {
+        height: auto; /* Permita que a altura seja definida automaticamente com base no conteúdo */
+    }
+
+    .menu-bar__container,
+    .container__menu {
+        flex-direction: column; /* Empilhe verticalmente os itens do menu */
+        align-items: center; /* Centralize horizontalmente os itens do menu */
+        height: auto;
+    }
+
+    .menu-bar__logo > img{
+        margin: 10px 0;
+    }
+
+    .container__menu > ul > li {
+        margin: 5px 0;
+    }
+    .rede-social__container {
+        width: 100%; /* Preencha a largura da tela */
+        justify-content: center; /* Centralize horizontalmente os ícones das redes sociais */
+        margin-right: 0; /* Remova a margem direita */
+    }
+}
+
+/* Adicione estilos para o menu aqui */
+
+.menu-bar__container {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+    justify-content: space-between;
+  }
+  
+  .container__menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .container__menu li {
+    margin-right: 20px;
+  }
+  
+  /* Estilos para menu responsivo */
+  .responsive {
+    display: block;
+  }
+  
+  .icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 762px) {
+    .container__menu ul {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      width: 100%;
+    }
+  
+    .container__menu ul.active {
+      display: flex;
+    }
+  
+    .icon {
+      display: block;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+  }
+  
+
+
+/* Mídia query para telas médias */
+@media (min-width: 768px) and (max-width: 991px) {
+    .menu-bar__logo > img {
+        width: 140px; /* Reduza o tamanho do logo */
+        height: 28px; /* Reduza o tamanho do logo */
+    }
+
+    .container__menu > ul > li {
+        margin-right: 10px; /* Reduza a margem direita */
+    }
+}

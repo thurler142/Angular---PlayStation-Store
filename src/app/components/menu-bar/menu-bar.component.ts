@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-menu-bar',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./menu-bar.component.css']
 })
 export class MenuBarComponent {
-
+  isMobile: boolean = window.innerWidth < 763;
+  
 }
+

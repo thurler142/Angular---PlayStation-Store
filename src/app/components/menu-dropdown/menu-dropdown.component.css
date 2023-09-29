@@ -1,0 +1,27 @@
+.example-container {
+    margin: 0;
+    padding: 0;
+  }
+  
+.container__sub-menu {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+  }
+.example-sidenav > button{
+    background: transparent;
+}
+.container__sub-menu > li > a {
+    color: white;
+    text-decoration: none;
+}
+.fixed-button {
+    position: fixed;
+    top: 10px; /* Ajuste esta propriedade para definir a distância do topo */
+    right: 10px; /* Ajuste esta propriedade para definir a distância da direita */
+    z-index: 1000; /* Se necessário, ajuste a ordem de sobreposição */
+  }
+  

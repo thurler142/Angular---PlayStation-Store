@@ -61,3 +61,12 @@ input {
 .card-assinatura__container > input:hover {
     font-weight: 600;
 }
+
+@media (max-width: 1000px) {
+
+    .app-card-assinaturas__container{
+        
+        flex-direction: column;
+    }
+
+}

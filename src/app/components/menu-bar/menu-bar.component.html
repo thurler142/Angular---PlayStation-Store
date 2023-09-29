@@ -1,19 +1,18 @@
 <div class="menu-bar__container">
     <div class="menu-bar__logo">
-        <img class="photo_logo" src = "https://logodownload.org/wp-content/uploads/2018/09/playstation-store-logo.png" alt="ps-logo">
+        <img [routerLink]="['']" class="photo_logo" src="https://logodownload.org/wp-content/uploads/2018/09/playstation-store-logo.png" alt="ps-logo">
     </div>
-    <div class="container__title">
-        
-    </div>
-    <div class="container__menu">
-        <ul class="container__sub-menu">
-            <li><a [routerLink]="['/home']"> Home</a></li>
-            <li><a [routerLink]="['']">Jogos</a></li>
-            <li><a href="#">Ofertas</a></li>
-            <li><a href="#">PlayStation VR</a></li>
-            <li><a href="#">PS5</a></li>
-            <li><a [routerLink]="['/assinaturas']">Assinaturas</a></li>
-        </ul>
+    <div class="container__title"></div>
+    <div class="container__menu" [ngClass]="{'responsive': isMobile}">
+        <app-menu-dropdown></app-menu-dropdown>
+      <ul class="container__sub-menu">
+        <li><a [routerLink]="['/home']" >Home</a></li>
+        <li><a [routerLink]="['']">Jogos</a></li>
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">PS4</a></li>
+        <li><a href="#">PS5</a></li>
+        <li><a [routerLink]="['/assinaturas']">Assinaturas</a></li>
+      </ul>
     </div>
 
     <div class="rede-social__container">

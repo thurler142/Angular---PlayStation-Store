@@ -9,5 +9,8 @@
 body{
     background: rgb(0,0,0);
     background: no-repeat;
+    background: fixed;
     background: linear-gradient(90deg, rgba(12,199,237,1) 18%, rgba(0,0,227,1) 100%);
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
