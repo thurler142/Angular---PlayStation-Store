@@ -11,6 +11,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CardAssinaturasComponent } from './components/card/card-assinaturas/card-assinaturas.component';
 import { MenuDropdownComponent } from './components/menu-dropdown/menu-dropdown.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FooterComponent,
     CardAssinaturasComponent,
     MenuDropdownComponent,
+    NotFoundComponent,
     ],
   imports: [
     BrowserModule,

@@ -59,18 +59,15 @@
     .menu-bar__container {
         height: auto; /* Permita que a altura seja definida automaticamente com base no conteúdo */
     }
-
     .menu-bar__container,
     .container__menu {
         flex-direction: column; /* Empilhe verticalmente os itens do menu */
         align-items: center; /* Centralize horizontalmente os itens do menu */
         height: auto;
     }
-
     .menu-bar__logo > img{
         margin: 10px 0;
     }
-
     .container__menu > ul > li {
         margin: 5px 0;
     }
