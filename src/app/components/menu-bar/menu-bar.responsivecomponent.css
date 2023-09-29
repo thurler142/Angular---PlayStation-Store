@@ -1,0 +1,39 @@
+/* Mídia query para telas pequenas */
+@media (max-width: 767px) {
+    .menu-bar__container {
+        
+        height: auto; /* Permita que a altura seja definida automaticamente com base no conteúdo */
+    }
+
+    .menu-bar__container,
+    .container__menu {
+        flex-direction: column; /* Empilhe verticalmente os itens do menu */
+        align-items: center; /* Centralize horizontalmente os itens do menu */
+        height: auto;
+    }
+
+    .menu-bar__logo > img {
+        margin: 10px 0;
+    }
+
+    .container__menu > ul > li {
+        margin: 5px 0;
+    }
+    .rede-social__container {
+        width: 100%; /* Preencha a largura da tela */
+        justify-content: center; /* Centralize horizontalmente os ícones das redes sociais */
+        margin-right: 0; /* Remova a margem direita */
+    }
+}
+
+/* Mídia query para telas médias */
+@media (min-width: 768px) and (max-width: 991px) {
+    .menu-bar__logo > img {
+        width: 140px; /* Reduza o tamanho do logo */
+        height: 28px; /* Reduza o tamanho do logo */
+    }
+
+    .container__menu > ul > li {
+        margin-right: 10px; /* Reduza a margem direita */
+    }
+}

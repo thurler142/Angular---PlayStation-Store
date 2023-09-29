@@ -1,0 +1,63 @@
+.app-card-assinaturas__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-assinatura__container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 350px;
+    height: 500px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background: rgb(29,41,217);
+    background: radial-gradient(circle, rgba(29,41,217,1) 0%, rgba(0,255,252,1) 98%);
+}
+.card-assinatura-items__container > ul > li {
+    list-style: none;
+    padding: 0px 10px 10px 0px
+}
+li::before {
+    content: "\2713";
+    color: greenyellow;
+    margin-left: -10px;
+}
+input {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+.card-assinatura-items__container > ul {
+    position: absolute;
+    bottom: 100px;
+    text-align: initial;
+    left: 0;
+}
+.card-assinatura__container > strong {
+    position: absolute;
+    top: 45px;
+}
+
+.card-assinatura__container > span {
+    position: absolute;
+    bottom: 372px;
+}
+.card-assinatura__container > p {
+    position: absolute;
+    bottom: 310px;
+}
+
+.card-assinatura__container > input {
+    border-radius: 10px;
+    background-color: limegreen;
+    width: 145px;
+    font-family: sans-serif;
+}
+
+.card-assinatura__container > input:hover {
+    font-weight: 600;
+}

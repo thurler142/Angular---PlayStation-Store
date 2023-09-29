@@ -1,0 +1,15 @@
+.footer__item > ul > li > a {
+    text-decoration: none;
+    color:  #fff; 
+    
+}
+
+.footer__item > ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.footer__item > ul > li > a:hover {
+    text-decoration: none;
+    color:  grey; 
+}

@@ -1,0 +1,35 @@
+/* Mídia query para telas pequenas */
+@media (max-width: 767px) {
+    .card-label__container {
+        bottom: 60px; /* Ajuste conforme necessário */
+    }
+
+    .card-label__content {
+        font-size: 10px; /* Ajuste conforme necessário */
+        padding: 5px 20px; /* Ajuste conforme necessário */
+    }
+}
+
+/* Mídia query para telas médias */
+@media (min-width: 768px) and (max-width: 991px) {
+    .card-label__container {
+        bottom: 75px; /* Ajuste conforme necessário */
+    }
+
+    .card-label__content {
+        font-size: 11px; /* Ajuste conforme necessário */
+        padding: 8px 40px; /* Ajuste conforme necessário */
+    }
+}
+
+/* Mídia query para telas grandes */
+@media (min-width: 992px) {
+    .card-label__container {
+        bottom: 90px; /* Mantenha o valor padrão para telas grandes */
+    }
+
+    .card-label__content {
+        font-size: 12px; /* Mantenha o valor padrão para telas grandes */
+        padding: 10px 50px; /* Mantenha o valor padrão para telas grandes */
+    }
+}

@@ -1,0 +1,14 @@
+/* Mídia query para telas pequenas */
+@media (max-width: 767px) {
+    .home__container {
+        flex-direction: column; /* Empilhe verticalmente os itens quando a tela for pequena */
+        align-items: center; /* Centralize horizontalmente os itens */
+    }
+}
+
+/* Mídia query para telas médias */
+@media (min-width: 768px) and (max-width: 991px) {
+    .home__container {
+        justify-content: center; /* Centralize horizontalmente os itens */
+    }
+}
